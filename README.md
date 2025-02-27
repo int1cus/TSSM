@@ -6,4 +6,5 @@
 - Отладчик
 - Точки останова
 - Проверка состояния переменных
+
 [Код исправленной программы](https://github.com/int1cus/TSSM/blob/PW_3_422_Andzhigaev_Filippov/Fibonacci.cs)
