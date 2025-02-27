@@ -8,3 +8,7 @@
 - Проверка состояния переменных
 
 [Код исправленной программы](https://github.com/int1cus/TSSM/blob/PW_3_422_Andzhigaev_Filippov/Fibonacci.cs)
+
+# Практическая работа №3 (часть 2)
+
+##[Исходники проекта](https://github.com/int1cus/TSSM/tree/PW_3_422_Andzhigaev_Filippov/PW_3_P2_422_Andzhigaev_Filippov)
