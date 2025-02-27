@@ -1,0 +1,42 @@
+﻿<Window x:Class="TSSM_PW_3_422_Andzhigaev_Filippov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TSSM_PW_3_422_Andzhigaev_Filippov"
+        mc:Ignorable="d"
+        Title="Какулятор" Height="500" Width="500"
+        ResizeMode="CanResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/roblox.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lblParam1" Content="Длина" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Height="25" Width="77"/>
+        <TextBox x:Name="txtParam1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="142" Margin="100,10,0,0" RenderTransformOrigin="0.5,0.5" Height="26">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.209"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <Label x:Name="lblParam2" Content="Ширина" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0" Height="26" Width="77"/>
+        <TextBox x:Name="txtParam2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="142" Margin="100,40,0,0" Height="26"/>
+
+        <GroupBox Header="Вид фигуры" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Width="150" Height="70">
+            <StackPanel>
+                <RadioButton x:Name="rbRectangle" Content="Прямоугольник" Checked="FigureChanged"/>
+                <RadioButton x:Name="rbCircle" Content="Круг" Checked="FigureChanged"/>
+                <RadioButton x:Name="rbTriangle" Content="Треугольник" Checked="FigureChanged"/>
+            </StackPanel>
+        </GroupBox>
+
+        <Button Content="Вычислить" HorizontalAlignment="Right" VerticalAlignment="Top" Width="150" Margin="0,120,10,0" Click="CalculateArea" Height="28"/>
+
+        <Label Content="Площадь:" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,0" Width="100" FontSize="18" Height="40"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="100,0,0,6" Foreground="Red" FontSize="18"/>
+    </Grid>
+</Window>
