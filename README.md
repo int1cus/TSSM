@@ -24,7 +24,7 @@
 - Проверка стека вызовов
 - Горячие клавиши для отладки (F10, F11, F5, CTRL+SHIFT+F5)
 
-[Код исправленной программы](https://github.com/int1cus/TSSM/blob/PW_3_422_Andzhigaev_Filippov/PW_3_P1_422_Andzhigaev_Filippov/Letters.cs)
+[Код программы](https://github.com/int1cus/TSSM/blob/PW_3_422_Andzhigaev_Filippov/PW_3_P1_422_Andzhigaev_Filippov/Letters.cs)
 
 # Практическая работа №3 (часть 2)
 
