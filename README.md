@@ -1,6 +1,9 @@
-# TSSM_422_Andzhigaev
-Владелец репозитория: Анджигаев Владислав Владимирович, 3ИСиП-422
-# Описание репозитория:
-Репозиторий для сдачи работ по дисциплине Поддержка и тестирование программных модулей (Testing and Support of Software Modules -> TSSM)
-## Практическая работа №1 (часть 1)
-- [Практическая работа №1 (Анджигаев, Филиппов, 3ИСиП-422](https://github.com/int1cus/TSSM/tree/main/PW_1_422_Andzhigaev_Filippov)
+# Практическая работа №3 (часть 1)
+## Выполнили: Анджигаев Владислав, Филиппов Роман
+## Группа: 3ИСиП-422
+## [Задание 1: Числа Фибоначчи](https://learn.microsoft.com/ru-ru/training/modules/dotnet-debug-visual-studio/4-use-visual-studio-debugger)
+Использованные средства отладки:
+- Отладчик
+- Точки останова
+- Проверка состояния переменных
+[Код исправленной программы](https://github.com/int1cus/TSSM/blob/PW_3_422_Andzhigaev_Filippov/Fibonacci.cs)
